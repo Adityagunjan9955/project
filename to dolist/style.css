@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 40px auto;
+  }
+  .container{
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .input-section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .input-section input{
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    border: 1px solid black;
+  }
+  .input-section button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: grey;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .input-section button:hover{
+    background-color: black;
+    transition: 0.4s;
+  }
+  .task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  #task-list{
+    width: 200px;
+  }
+  .delete-btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color:black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .delete-btn:hover{
+    background-color: grey;
+    transition: 0.2s;
+  }
+  .completed{
+    text-decoration: line-through;
+    color: grey;
+    background-color: lightgrey;
+  }
+  input[type="checkbox"]{
+    margin-right: 10px;   
+    accent-color: black;
+  }
+  li{
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: lightgrey;
+  }
+  label{
+    display: flex;
+    word-wrap: break-word; 
+    word-break: break-word;
+  }
