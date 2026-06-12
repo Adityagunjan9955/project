@@ -1,0 +1,35 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  height: 100vh;
+}
+.slider{
+  position: relative;
+  width: 600px;
+  margin: auto;
+  overflow: hidden;
+}
+.slider img{
+  width: 100%;
+  display: block;
+}
+button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.prev{
+  left:10px;
+}
+.next{
+  right:10px
+}
